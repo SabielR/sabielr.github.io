@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabiel Rodriguez — Boston, Massachusetts</title>
+  <meta name="description" content="Sabiel Rodriguez is a Boston-based operations and go-to-market leader working at the intersection of policy, markets, and regulated industries. Georgetown McCourt School of Public Policy.">
+  <meta property="og:title" content="Sabiel Rodriguez — Boston, Massachusetts">
+  <meta property="og:description" content="Operations, go-to-market, and regulatory strategy. Writing on policy, markets, and regulated industries.">
+  <meta property="og:url" content="https://sabielrodriguez.com">
+  <meta property="og:type" content="profile">
+  <link rel="canonical" href="https://sabielrodriguez.com">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sabiel Rodriguez",
+    "url": "https://sabielrodriguez.com",
+    "jobTitle": "Operations & Go-to-Market Leader",
+    "description": "Operations, go-to-market, and regulatory strategy leader based in Boston, MA.",
+    "knowsAbout": ["Operations", "Go-to-Market Strategy", "Regulatory Expansion", "Market Entry", "Public Policy", "Regulatory Affairs"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Boston", "addressRegion": "MA" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Georgetown University, McCourt School of Public Policy" },
+      { "@type": "CollegeOrUniversity", "name": "Providence College" },
+      { "@type": "CollegeOrUniversity", "name": "Clark University" }
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/sabiel-rodriguez/"
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --navy: #0d2240;
+      --navy-deep: #081729;
+      --gold: #c9a227;
+      --gold-soft: #e3c65e;
+      --paper: #f7f5f0;
+      --ink: #1c2433;
+      --ink-soft: #4d5768;
+      --line: #e2ddd2;
+      --white: #ffffff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.75;
+    }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 0 28px; }
+    .narrow { max-width: 720px; }
+
+    /* Top bar */
+    nav { background: var(--navy-deep); padding: 16px 0; }
+    nav .wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .wordmark {
+      font-family: Georgia, serif;
+      color: var(--white);
+      font-size: 1.05rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    .wordmark span { color: var(--gold-soft); }
+    nav .navlinks a {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: #b8c4d4;
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-left: 26px;
+    }
+    nav .navlinks a:hover { color: var(--gold-soft); }
+
+    /* Hero */
+    header {
+      background: linear-gradient(160deg, var(--navy) 0%, var(--navy-deep) 100%);
+      color: var(--white);
+      padding: 110px 0 100px;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 6px;
+      background: linear-gradient(90deg, var(--gold) 0%, var(--gold-soft) 100%);
+    }
+    .kicker {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold-soft);
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 1.1;
+      letter-spacing: -1px;
+    }
+    .slogan {
+      margin-top: 26px;
+      font-size: 1.5rem;
+      font-style: italic;
+      color: #d7e0ec;
+      max-width: 640px;
+      line-height: 1.5;
+    }
+    .hero-cta { margin-top: 40px; }
+    .btn {
+      display: inline-block;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 15px 34px;
+      border-radius: 3px;
+      transition: all 0.15s ease;
+      margin: 0 14px 14px 0;
+    }
+    .btn-gold { background: var(--gold); color: var(--navy-deep); }
+    .btn-gold:hover { background: var(--gold-soft); }
+    .btn-ghost { border: 1px solid #5a6b83; color: #d7e0ec; }
+    .btn-ghost:hover { border-color: var(--gold-soft); color: var(--gold-soft); }
+
+    /* Sections */
+    section { padding: 84px 0; }
+    .label {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: 2.3rem;
+      font-weight: 400;
+      line-height: 1.2;
+      margin-bottom: 28px;
+      color: var(--navy);
+    }
+    p + p { margin-top: 18px; }
+    .lede { font-size: 1.15rem; }
+
+    /* Quote band */
+    .quoteband {
+      background: var(--navy);
+      color: var(--white);
+      padding: 72px 0;
+      text-align: center;
+    }
+    .quoteband blockquote {
+      font-size: 1.7rem;
+      font-style: italic;
+      line-height: 1.5;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    .quoteband blockquote::before { content: "\201C"; color: var(--gold-soft); }
+    .quoteband blockquote::after { content: "\201D"; color: var(--gold-soft); }
+    .quoteband cite {
+      display: block;
+      margin-top: 22px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-style: normal;
+      font-size: 0.8rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--gold-soft);
+    }
+
+    /* Priorities */
+    .alt { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .priorities { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0; border: 1px solid var(--line); }
+    .priority {
+      padding: 36px 30px;
+      border-right: 1px solid var(--line);
+      background: var(--white);
+    }
+    .priority:last-child { border-right: none; }
+    .priority .num {
+      font-family: Georgia, serif;
+      font-size: 2.4rem;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 14px;
+    }
+    .priority h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+    .priority p { color: var(--ink-soft); font-size: 0.98rem; }
+
+    /* Record */
+    .record .entry {
+      display: grid;
+      grid-template-columns: 190px 1fr;
+      gap: 24px;
+      padding: 26px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .record .entry:last-child { border-bottom: none; }
+    .record .era {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      padding-top: 6px;
+    }
+    .record h3 { font-size: 1.15rem; color: var(--navy); }
+    .record p { color: var(--ink-soft); margin-top: 4px; }
+
+    /* Articles */
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .article-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      padding: 28px;
+      text-decoration: none;
+      display: block;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    .article-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .article-card .date {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .article-card h3 {
+      font-size: 1.2rem;
+      color: var(--navy);
+      margin: 10px 0 8px;
+      line-height: 1.35;
+    }
+    .article-card p { color: var(--ink-soft); font-size: 0.95rem; }
+    .article-card .readmore {
+      display: inline-block;
+      margin-top: 14px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+    .articles-empty {
+      color: var(--ink-soft);
+      font-style: italic;
+    }
+
+    /* Credentials strip */
+    .creds {
+      background: var(--navy-deep);
+      color: #b8c4d4;
+      padding: 46px 0;
+    }
+    .creds .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px 48px;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .creds strong { color: var(--white); display: block; font-size: 0.9rem; margin-bottom: 3px; }
+
+    /* Connect */
+    .connect { text-align: center; }
+    .connect h2 { margin-bottom: 14px; }
+    .connect p { max-width: 560px; margin: 0 auto 34px; color: var(--ink-soft); }
+    .btn-navy { background: var(--navy); color: var(--white); }
+    .btn-navy:hover { background: var(--navy-deep); }
+    .btn-outline { border: 1px solid var(--navy); color: var(--navy); }
+    .btn-outline:hover { background: var(--navy); color: var(--white); }
+
+    footer {
+      background: var(--navy-deep);
+      color: #7e8da2;
+      padding: 34px 0;
+      text-align: center;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+    @media (max-width: 640px) {
+      h1 { font-size: 2.6rem; }
+      .slogan { font-size: 1.2rem; }
+      header { padding: 70px 0 64px; }
+      section { padding: 60px 0; }
+      .record .entry { grid-template-columns: 1fr; gap: 4px; }
+      nav .navlinks { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrap">
+      <a class="wordmark" href="#">Sabiel <span>Rodriguez</span></a>
+      <div class="navlinks">
+        <a href="#meet">Meet Sabiel</a>
+        <a href="#priorities">Focus</a>
+        <a href="#record">Record</a>
+        <a href="#writing">Writing</a>
+        <a href="#connect">Connect</a>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="wrap">
+      <p class="kicker">Boston, Massachusetts</p>
+      <h1>Sabiel Rodriguez</h1>
+      <p class="slogan">Policy, markets, and the work of building things that last.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#meet">Meet Sabiel</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/sabiel-rodriguez/">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="meet">
+    <div class="wrap narrow">
+      <p class="label">Meet Sabiel</p>
+      <h2>Biography</h2>
+      <p class="lede">Sabiel Rodriguez is a Boston-based operations and go-to-market leader whose work spans public policy, regulatory strategy, and business growth.</p>
+      <p>He began his career in legal services, managing cases for more than 170 individuals seeking Social Security disability benefits. The role demanded rigor, empathy, and a practical understanding of how complex public systems affect the people who depend on them.</p>
+      <p>Sabiel later entered Massachusetts state government, where he worked in public oversight and accountability and contributed to the regulatory development of one of the nation's most closely watched emerging industries. These experiences gave him a firsthand understanding of how laws become operational policies, and how regulatory decisions shape organizations, markets, and communities.</p>
+      <p>Ahead of the 2024 presidential election, Sabiel served with the governing body responsible for administering elections in DeKalb County, Georgia, one of the country's most electorally significant counties. His work focused on expanding equitable access to the ballot, including ensuring that voters could participate regardless of the language they spoke at home.</p>
+      <p>Sabiel earned his master's degree in public policy from Georgetown University's McCourt School of Public Policy, where he was named a National Urban Fellow. He also holds a Bachelor of Arts in Political Science from Providence College and a Certificate in Regulatory Affairs for Cannabis Control from Clark University, which he completed with a 4.0 GPA.</p>
+      <p>Today, Sabiel works in the private sector, leading operations, market-entry strategy, and regulatory expansion. Drawing on experience inside government agencies and a detailed understanding of statutes and administrative systems, he brings a regulator's perspective to business growth. His approach combines strategic execution with an understanding of how oversight bodies evaluate risk, compliance, and market readiness.</p>
+      <p>Sabiel lives in Boston and writes about public policy, politics, markets, and regulated industries. When he is not thinking about how governments and public institutions work, he can usually be found spending time by the water, often with his goldendoodle, Logan, by his side.</p>
+    </div>
+  </section>
+
+  <div class="quoteband">
+    <div class="wrap">
+      <blockquote>The best expansion strategies are written by people who understand both sides of the table.</blockquote>
+      <cite>Sabiel Rodriguez</cite>
+    </div>
+  </div>
+
+  <section id="priorities" class="alt">
+    <div class="wrap">
+      <p class="label">Focus</p>
+      <h2>Areas of work</h2>
+      <div class="priorities">
+        <div class="priority">
+          <div class="num">01</div>
+          <h3>Operations</h3>
+          <p>The systems, processes, and teams that let an organization grow without breaking.</p>
+        </div>
+        <div class="priority">
+          <div class="num">02</div>
+          <h3>Government Affairs</h3>
+          <p>Engagement with agencies, regulators, and public institutions — informed by experience on their side of the table.</p>
+        </div>
+        <div class="priority">
+          <div class="num">03</div>
+          <h3>Regulatory Expansion</h3>
+          <p>Licensing, compliance, and agency relationships in regulated industries.</p>
+        </div>
+        <div class="priority">
+          <div class="num">04</div>
+          <h3>Go-to-Market</h3>
+          <p>Market entry for new geographies and verticals — sizing, sequencing, and standing up the launch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="record" class="record">
+    <div class="wrap narrow">
+      <p class="label">The Record</p>
+      <h2>Career at a glance</h2>
+      <div class="entry">
+        <div class="era">Today</div>
+        <div>
+          <h3>Operations &amp; Go-to-Market — Private Sector</h3>
+          <p>Leading operations and market expansion in Boston: scaling into new markets and the regulatory workstreams behind them.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="era">2024 Election</div>
+        <div>
+          <h3>Election Administration — DeKalb County, Georgia</h3>
+          <p>Served with the county's election governing body ahead of the 2024 presidential election — while completing his Master of Public Policy at Georgetown's McCourt School (3.96 GPA) — conducting research and delivering policy recommendations to the board on guaranteeing equitable ballot access, including language access, in one of the nation's most competitive counties.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="era">State Government</div>
+        <div>
+          <h3>Oversight &amp; Accountability — Massachusetts</h3>
+          <p>Audit and accountability work strengthening public programs and public trust.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="era">Emerging Industry</div>
+        <div>
+          <h3>Cannabis Regulatory Policy — Massachusetts</h3>
+          <p>Contributed to the regulatory buildout of legal cannabis in Massachusetts — one of the first states in the nation to stand up an adult-use market, and one of its most closely watched. Worked at the front lines of translating statute into workable regulation: licensing, compliance, and the day-to-day questions of governing an industry that had never been governed before. Backed by a Certificate in Regulatory Affairs for Cannabis Control from Clark University, completed with a 4.0 GPA.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="era">Legal Services</div>
+        <div>
+          <h3>Case Management — Nationwide</h3>
+          <p>Guided some of the country's most vulnerable people through the federal disability benefits process, managing 170+ SSDI/SSI cases for claimants nationwide — many navigating disability, illness, or financial hardship with no one else in their corner. Drafted legal complaints and evaluated bankruptcy claims, turning opaque government processes into outcomes people could count on.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="writing">
+    <div class="wrap">
+      <p class="label">Writing</p>
+      <h2>Articles &amp; commentary</h2>
+      <div class="articles-grid" id="articles-container">
+        <p class="articles-empty">New writing on policy, markets, and regulated industries is on the way.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="creds">
+    <div class="wrap">
+      <div><strong>Georgetown University</strong>McCourt School of Public Policy</div>
+      <div><strong>Providence College</strong>B.A., Political Science</div>
+      <div><strong>Clark University</strong>Regulatory Affairs Certificate</div>
+      <div><strong>National Urban Fellows</strong>Fellow</div>
+    </div>
+  </div>
+
+  <section id="connect" class="connect">
+    <div class="wrap">
+      <p class="label">Connect</p>
+      <h2>Find Sabiel online</h2>
+      <a class="btn btn-navy" href="https://www.linkedin.com/in/sabiel-rodriguez/">LinkedIn</a>
+      <a class="btn btn-outline" href="mailto:Sabiel@sabielrodriguez.com">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Sabiel Rodriguez &middot; Boston, Massachusetts &middot; sabielrodriguez.com
+  </footer>
+
+  <script>
+    /*
+      ARTICLES — automated publishing hook.
+      Your AI agent only needs to update articles.json in the site root.
+      Format:
+      [
+        {
+          "title": "Article title",
+          "date": "2026-07-17",
+          "summary": "One or two sentence summary.",
+          "url": "https://link-to-article (LinkedIn, Medium, or /articles/slug.html)"
+        }
+      ]
+      Newest first. This page renders whatever it finds; if the file is
+      missing or empty, the placeholder text stays.
+    */
+    fetch('articles.json')
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (articles) {
+        if (!Array.isArray(articles) || articles.length === 0) return;
+        var container = document.getElementById('articles-container');
+        container.innerHTML = '';
+        articles.forEach(function (a) {
+          var card = document.createElement('a');
+          card.className = 'article-card';
+          card.href = a.url || '#';
+          var d = a.date ? new Date(a.date + 'T00:00:00') : null;
+          var dateStr = d ? d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+          card.innerHTML =
+            '<span class="date">' + dateStr + '</span>' +
+            '<h3></h3><p></p>' +
+            '<span class="readmore">Read &rarr;</span>';
+          card.querySelector('h3').textContent = a.title || '';
+          card.querySelector('p').textContent = a.summary || '';
+          container.appendChild(card);
+        });
+      })
+      .catch(function () { /* keep placeholder */ });
+  </script>
+</body>
+</html>
