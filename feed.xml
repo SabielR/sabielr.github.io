@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sabiel Rodriguez Policy Notes</title>
+    <link>https://sabielrodriguez.com/</link>
+    <atom:link href="https://sabielrodriguez.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Policy notes and analysis by Sabiel Rodriguez on public policy, regulation, and markets.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jul 2026 09:00:00 -0400</lastBuildDate>
+    <item>
+      <title>What the New Federal Housing Law Will Actually Do</title>
+      <link>https://sabielrodriguez.com/current-thinking/federal-housing-law-sabiel-rodriguez/</link>
+      <guid isPermaLink="true">https://sabielrodriguez.com/current-thinking/federal-housing-law-sabiel-rodriguez/</guid>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sabiel Rodriguez</dc:creator>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 -0400</pubDate>
+      <description>Sabiel Rodriguez examines what the 21st Century ROAD to Housing Act will actually do nationally and how it could affect housing production in Massachusetts.</description>
+    </item>
+  </channel>
+</rss>
