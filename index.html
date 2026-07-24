@@ -332,13 +332,10 @@
 
       <figure class="portrait">
         <div class="frame">
-          <!-- To use the real photo: add portrait.jpg (4:5) to the site root and
-               uncomment the line below; the placeholder will be covered automatically. -->
-          <!-- <img src="portrait.jpg" width="640" height="800" alt="Portrait of Sabiel Rodriguez"> -->
-          <div class="ph" role="img" aria-label="Portrait of Sabiel Rodriguez">
-            <span class="mono">SR</span>
-            <span class="cap">Portrait</span>
-          </div>
+          <picture>
+            <source srcset="portrait.webp" type="image/webp">
+            <img src="portrait.jpg" width="800" height="1000" alt="Portrait of Sabiel Rodriguez" fetchpriority="high">
+          </picture>
         </div>
         <figcaption>Boston, Massachusetts</figcaption>
       </figure>
